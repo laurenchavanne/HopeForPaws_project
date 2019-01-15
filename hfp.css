@@ -1,0 +1,210 @@
+@charset "utf-8";
+
+/* Stylesheet for Hope For Paws project
+	
+	Author: Guy Montenora & Lauren Chavanne
+	Date: 1/9/19
+	
+	Filename: hfp.css
+*/
+
+/* About page and navigation styles */
+
+.nav li {
+	float: left;
+	display: inline;
+	font-size: 20px;
+}
+
+
+.nav a {
+	float: left;
+	text-align: center;
+	font-family: 'Happy Monkey', cursive;
+	font-size: 15px;
+	font-weight: bold;
+	padding: 0px 82px;
+	transition: color .2s;
+	color: #A0522D;
+}
+
+.nav a:hover {
+	color: #F4A460;
+	text-decoration: underline;
+}
+
+.nav {
+	padding-top: 10px;
+}
+
+.jumbotron {
+	background-image: url(friends.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 410px;
+	color: white;
+	box-shadow: 1px 1px 7px 7px #CD853F;
+	margin: auto;
+	margin-bottom: 2px;
+	margin-right: 53px;
+	margin-left: 30px;
+	border-bottom-left-radius: 2px;
+	border-top-left-radius: 2px;
+}
+
+.jumbotron h1 {
+	font-size: 85px;
+	font-family: 'Happy Monkey', cursive;
+	line-height: .5px;
+	text-align: center;
+	padding-right: 83px;
+	text-shadow: 4px 1px 6px #CD853F;
+	transition: text-shadow 1s;
+	
+}
+
+.jumbotron h1:hover {
+	text-shadow: 5px 4px 4px #8B0000;
+}
+
+.jumbotron p {
+	font-family: 'Happy Monkey', cursive;
+	font-size: 26px;
+	text-align: center;
+	padding: 280px;
+	padding-left: 90px;
+}
+
+body {
+	background: url(tanpaws.jpg);
+	
+}
+
+/* Footer styles */
+
+footer {
+	font-family: 'Happy Monkey', cursive;
+	font-size: 17px;
+	font-weight: bold;
+	padding: 0 20px;
+	text-decoration: none;
+	transition: color 1s;
+	padding-bottom: 10px;
+}
+
+footer h3 {
+	font-family: 'Happy Monkey', cursive;
+	font-size: 25px;
+	font-weight: bold;
+	color: #A0522D;
+	line-height: 50px;
+}
+
+/* Contact Us page styles */
+
+html {
+	text-align: center;
+	padding-left: 20px;
+}
+
+h1 {
+	font-size: 55px;
+	font-family: 'Happy Monkey', cursive;
+	text-align: center;
+	text-shadow: 4px 1px 6px #CD853F;
+	transition: text-shadow 1s;
+}
+
+.address {
+	position: relative;
+	top: 100px;
+	font-family: 'Happy Monkey', cursive; 
+	font-weight: bold;
+	font-size: 19px;
+	text-align: center;
+}
+
+.center {
+	top: 12px;
+	right: 17px;
+	text-align: center;
+	font-family: 'Happy Monkey', cursive;
+	font-weight: bold;
+	font-size: 19px;
+}
+
+#email {
+	position: relative;
+	top: 51px;
+}
+
+#call {
+	position: relative;
+	top: 48px;
+}
+
+#hours {
+	position: relative;
+	top: 40px;
+}
+
+/* Google maps styles */
+
+.mapouter {
+	margin: auto;
+	padding-top: 121px;
+	padding-right: 50px;
+}
+
+/* Adoption Form styles */
+
+.form {
+	position: relative;
+	top: 12px;
+	right: 17px;
+	text-align: center;
+	font-family: 'Happy Monkey', cursive;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+#forms {
+	font-family: 'Happy Monkey', cursive;
+	font-weight: bold;
+	font-size: 16px;
+	text-align: center;
+	position: relative;
+	top: 30px;
+}
+
+div.formRow {
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-flow: row wrap;
+	flex-flow: row wrap;
+	margin: 10px 550px;
+}
+
+/* Mobile Styles: opx to 480px */
+
+@media only screen and (max-width:480px) {
+	nav.horizontal a {
+		font-size: 1.5em;
+		line-height: 1em;
+}
+	
+
+/* Tablet Styles: 481 and greater */
+
+@media only screen and (min-width:481px) {
+	ul.nav > li {
+		float: left;
+		width: 20%;
+		position: relative;
+}
+	
+	ul.nav {
+		width: 150%;
+		position: absolute;
+}
